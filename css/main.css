@@ -1,0 +1,81 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+/* 공통 클래스 */
+
+.reset-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+}
+
+.a11y-hidden {
+    overflow: hidden;
+    position: absolute !important;
+    top: -9999em;
+    clip: rect(0, 0, 0, 0);
+    clip-path: polygon(0 0, 0 0, 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+ ::-moz-selection {
+    background: #233d84;
+    color: #ffffff;
+}
+
+ ::selection {
+    background: #233d84;
+    color: #ffffff;
+}
+
+body * {
+    -webkit-tap-highlight-color: rgba(255, 255, 200, 0.3);
+    tap-highlight-color: rgba(255, 255, 200, 0.3);
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a img {
+    vertical-align: middle;
+}
+
+
+/* 헤더 디자인 */
+
+
+/* 브랜드 로고 */
+
+
+/* 메인 메뉴 열기 버튼 */
+
+
+/* 메인 내비게이션 */
+
+.app-navigation {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
